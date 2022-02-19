@@ -5,7 +5,5 @@ provider "aws" {
 }
 
 module "s3" {
-    source = "terraform-aws-modules/s3-bucket/aws"
-    #bucket name should be unique
-    bucket_name = "sample-sudhakar-2"       
+    source = "terraform-aws-modules/s3-bucket/aws"     
 }
